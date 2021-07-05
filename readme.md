@@ -1,10 +1,10 @@
-## Expense Tracker
+## Quote Generator App
 
-Keep track of income and expenses. Add and remove items and save to local storage
+https://koulkoudakis.github.io/quote-generator/
 
 ## Project Specifications
 
-- Displays transaction items in DOM
-- Shows balance, expense and income totals
-- Adding new transaction is reflected in total
-- Persists to local storage
+- Displays inspirational quote and author(if available) by fetching for API
+- Search quote or author on button click
+- Copy to clipboard functionality
+- Post to Twitter intent
