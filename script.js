@@ -44,7 +44,7 @@ function newQuote() {
     }
 
     // Check quote length to determine styling
-    if (quote.text.length > 80) {
+    if (quote.text.length > 50) {
         quoteText.classList.add('long-quote');
     } else {
         quoteText.classList.remove('long-quote');
