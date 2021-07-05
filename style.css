@@ -22,7 +22,7 @@ footer {
   flex-direction: column;
   /* justify-content: center; */
   /* align-items: center; */
-  font-size: 0.5rem;
+  font-size: 0.8rem;
   color: rgba(0, 0, 0, 0.5);
   /* position: fixed; */
   /* bottom: 100px; */
@@ -56,9 +56,9 @@ button:active {
   color: #f33838;
 }
 
-.fa-twitter {
+/* .fa-twitter {
   font-size: 1.5rem;
-}
+} */
 
 .quote-text {
   font-size: 2.75rem;
@@ -87,7 +87,7 @@ button:active {
 
 button {
   cursor: pointer;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   height: 2.5rem;
   border: none;
   border-radius: 10px;
@@ -173,5 +173,20 @@ button.search {
   }
   .quote-text {
     font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .quote-container {
+    margin: auto 10px;
+  }
+  .quote-text {
+    font-size: 1.5rem;
+  }
+  button {
+    font-size: 1rem;
+    height: 2.5rem;
+    border: none;
+    padding: 0.2rem 1rem;
   }
 }

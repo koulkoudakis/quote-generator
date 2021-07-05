@@ -89,7 +89,7 @@ function tweetQuote() {
 
 // Copy quote to clipboard
 function copyQuote() {
-    const copiedQuote = `https://twitter.com/intent/tweet?text=${quoteText.textContent} - ${authorText.textContent}`;
+    const copiedQuote = `${quoteText.textContent} - ${authorText.textContent}`;
     
     navigator.clipboard.writeText(copiedQuote).then(function() {
       console.log("clipboard successfully set");
