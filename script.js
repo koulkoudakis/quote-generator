@@ -39,10 +39,8 @@ function newQuote() {
         searchAuthorBtn.style.visibility = "hidden";
         
     } else {
-        quoteText.textContent = quote.text;
         authorText.textContent = quote.author;
         searchAuthorBtn.style.visibility = "visible";
-        console.log(quote);
     }
 
     // Check quote length to determine styling
