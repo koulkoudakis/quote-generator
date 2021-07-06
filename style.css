@@ -107,6 +107,14 @@ button.search {
   visibility: visible;
 }
 
+#prev-quote {
+  visibility: hidden;
+}
+
+#next-quote {
+  visibility: hidden;
+}
+
 .tooltip {
   position: relative;
   display: inline-block;
@@ -187,6 +195,6 @@ button.search {
     font-size: 1rem;
     height: 2.5rem;
     border: none;
-    padding: 0.2rem 1rem;
+    padding: 0.2rem .8rem;
   }
 }
